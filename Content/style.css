@@ -1,0 +1,90 @@
+body
+{
+    font-family: 'SourceCodeProSemiBold';
+    margin: 0px 0px;
+    padding: 0px;
+    background-color: rgb(11, 10, 52);
+    color: rgb(214, 214, 214);
+}
+
+header > h1
+{
+    margin: 0px 0px;
+    font-family: 'SourceCodeProSemiBold';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    background-color: rgb(11, 13, 18);
+    color: rgb(214, 214, 214);
+    padding: 5px 0px;
+    text-align: center;
+}
+
+div.whiteLineTransparent
+{
+    background-color: rgba(214, 214, 214, 0.3);
+    padding-top: 1px;
+}
+
+div.blueLine
+{
+    background-color: rgb(3, 0, 161);
+    padding-top: 1px;
+}
+
+div.blueLineTransparent
+{
+    background-color: rgba(3, 0, 161, 0.3);
+    padding-top: 1px;
+}
+
+div.purpleLine
+{
+    background-color: rgb(68, 1, 141);
+    padding-top: 1px;
+}
+
+div.orangeLine
+{
+    background-color: rgb(254, 145, 91);
+    padding-top: 1px;
+}
+
+/*Footer*/
+
+.footerLinks
+{
+    background-color: rgb(10, 10, 10);
+    margin: 0px;
+}
+
+div.footerLinks-content
+{
+    padding: 10px 0px;
+}
+
+div.footerLinks-content > h2
+{
+    font-family: 'SourceCodeProSemiBold';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5em;
+    color: rgb(214, 214, 214);
+}
+
+div.copyright
+{
+    padding: 5px 50px;
+    font-family: 'SourceCodeProSemiBold';
+    color: rgb(115, 115, 115);
+    background-color: rgb(11, 13, 18);
+}
+
+div.video-main video
+{
+    height: 800px;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    padding: 0px;
+}

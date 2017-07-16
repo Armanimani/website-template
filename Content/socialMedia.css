@@ -1,0 +1,428 @@
+.socialButton-global
+{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid rgb(68, 1, 141);
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+.active
+{
+    background-color: rgb(254, 145, 91);
+}
+
+.facebookButton
+{
+    background: #4060A5;
+    color: #fff;
+}
+
+.facebookButton:before
+{
+    background: #4060A5;
+    font-family: "FontAwesome";
+    content: "\f09a";
+}
+
+.facebookButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.twitterButton
+{
+    background: #00ABE3;
+    color: #fff;
+}
+
+.twitterButton:before
+{
+    background: #00ABE3;
+    font-family: "FontAwesome";
+    content: "\f099";
+}
+
+.twitterButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.instagramButton
+{
+    background: rgb(247, 51, 68);
+    color: #fff;
+}
+
+.instagramButton:before
+{
+    background: rgb(247, 51, 68);
+    font-family: "FontAwesome";
+    content: "\f16d";
+}
+
+.instagramButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.googleButton
+{
+    background: #e64522;
+    color: #fff;
+}
+
+.googleButton:before
+{
+    background: #e64522;
+    font-family: "FontAwesome";
+    content: "\f0d5";
+}
+
+.googleButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.linkedinButton
+{
+    background: #0094BC;
+    color: #fff;
+}
+
+.linkedinButton:before
+{
+    background: #0094BC;
+    font-family: "FontAwesome";
+    content: "\f0e1";
+}
+
+.linkedinButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.pinterestButton
+{
+    background: #cb2027;
+    color: #fff;
+}
+
+.pinterestButton:before
+{
+    background: #cb2027;
+    font-family: "FontAwesome";
+    content: "\f0d2";
+}
+
+.pinterestButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.tumblrButton
+{
+    background: #3a5876;
+    color: #fff;
+}
+
+.tumblrButton:before
+{
+    background: #3a5876;
+    font-family: "FontAwesome";
+    content: "\f173";
+}
+
+.tumblrButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.rssButton
+{
+    background: #e88845;
+    color: #fff;
+}
+
+.rssButton:before
+{
+    background: #e88845;
+    font-family: "FontAwesome";
+    content: "\f09e";
+}
+
+.rssButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.flickrButton
+{
+    background: #FF57AE;
+    color: #fff;
+}
+
+.flickrButton:before
+{
+    background: #FF57AE;
+    font-family: "FontAwesome";
+    content: "\f16e";
+}
+
+.flickrButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.githubButton
+{
+    background: #343434;
+    color: #fff;
+}
+
+.githubButton:before
+{
+    background: #343434;
+    font-family: "FontAwesome";
+    content: "\f09b";
+}
+
+.githubButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.vimeoButton
+{
+    background: #83DAEB;
+    color: #fff;
+}
+
+.vimeoButton:before
+{
+    background: #83DAEB;
+    font-family: "FontAwesome";
+    content: "\f27d";
+}
+
+.vimeoButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.stackOverflowButton
+{
+    background: #FEA501;
+    color: #fff;
+}
+
+.stackOverflowButton:before
+{
+    background: #FEA501;
+    font-family: "FontAwesome";
+    content: "\f16c";
+}
+
+.stackOverflowButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.dropboxButton
+{
+    background: #017FE5;
+    color: #fff;
+}
+
+.dropboxButton:before
+{
+    background: #017FE5;
+    font-family: "FontAwesome";
+    content: "\f16b";
+}
+
+.dropboxButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.dribbbleButton
+{
+    background: #F46899;
+    color: #fff;
+}
+
+.dribbbleButton:before
+{
+    background: #F46899;
+    font-family: "FontAwesome";
+    content: "\f17d";
+}
+
+.dribbbleButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.skypeButton
+{
+    background: #00C6FF;
+    color: #fff;
+}
+
+.skypeButton:before
+{
+    background: #00C6FF;
+    font-family: "FontAwesome";
+    content: "\f17e";
+}
+
+.skypeButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.youtubeButton
+{
+    background: #FF1F25;
+    color: #fff;
+}
+
+.youtubeButton:before
+{
+    background: #FF1F25;
+    font-family: "FontAwesome";
+    content: "\f167";
+}
+
+.youtubeButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.youtubePlayButton
+{
+    background: #DF192A;
+    color: #fff;
+}
+
+.youtubePlayButton:before
+{
+    background: #DF192A;
+    font-family: "FontAwesome";
+    content: "\f16a";
+}
+
+.youtubePlayButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.xingButton
+{
+    background: #005C5E;
+    color: #fff;
+}
+
+.xingButton:before
+{
+    background: #005C5E;
+    font-family: "FontAwesome";
+    content: "\f168";
+}
+
+.xingButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.fourSquareButton
+{
+    background: #09B9E0;
+    color: #fff;
+}
+
+.fourSquareButton:before
+{
+    background: #09B9E0;
+    font-family: "FontAwesome";
+    content: "\f180";
+}
+
+.fourSquareButton:hover
+{
+    color: #fff;
+    border-color: rgb(254, 145, 91);
+    box-shadow: 0px 0px 10px #fff;
+    text-decoration: none;
+}
+
+.socialButton-global:hover
+{
+    filter: brightness(120%);
+    transition: 0.5s ease;
+}
